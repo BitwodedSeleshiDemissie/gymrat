@@ -1,0 +1,175 @@
+.login-body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.dashboard-container {
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+.calendar-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.calendar-day {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.calendar-day h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.booking-slot {
+    height: 40px;
+    margin-bottom: 5px;
+    background: #f1f1f1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.booking-slot:hover {
+    background: #e0e0e0;
+}
+
+.bookings-list {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.booking-entry {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.booking-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.booking-username {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.booking-time {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.booking-note {
+    color: #6c757d;
+    font-size: 0.875em;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.875em;
+}
+
+.delete-button:hover {
+    background-color: #bb2d3b;
+}
+@media (max-width: 768px) {
+    .calendar {
+        grid-template-columns: 1fr;
+    }
+    
+    .calendar-day {
+        margin-bottom: 10px;
+    }
+}
+.booking-time-range {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.start-time, .end-time {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.time-divider {
+    margin: 0 5px;
+    color: #6c757d;
+}
+
+.booking-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.booking-username {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.booking-note {
+    color: #6c757d;
+    font-size: 0.875em;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.875em;
+}
+
+.delete-button:hover {
+    background-color: #bb2d3b;
+}
